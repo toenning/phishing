@@ -19,7 +19,9 @@ body {
 .header h1 {
   color: #2c3e50;
   padding: 10px 20px;
-  font-size: 80px;
+  font-size: 70px;
+  background: rgba(196, 192, 192, 0.4);
+  border-radius: 8px;
 }
 
 /* intro-tekst */
