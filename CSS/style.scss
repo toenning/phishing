@@ -1,5 +1,12 @@
 @use 'partial';
 
+body {
+    background-color: partial.$background-color;
+    color: partial.$text-color;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
 /* HEADER */
 
 .header {
@@ -16,4 +23,20 @@
 .header h1 {
   color: partial.$primary-color;
   padding: 10px 20px;
+  font-size: 80px;
 }
+
+/* intro-tekst */
+
+.intro {
+    max-width: 700px;
+    margin: partial.$spacing auto;
+    padding: partial.$spacing;
+
+    background-color: partial.$secondary-color;
+    border: 3px solid partial.$primary-color;
+    border-radius: partial.$border-radius;
+
+    line-height: 1.6;
+}
+   

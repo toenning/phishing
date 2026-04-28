@@ -1,3 +1,10 @@
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
 /* HEADER */
 .header {
   background-image: url(../IMG/computer1.jpg);
@@ -12,4 +19,16 @@
 .header h1 {
   color: #2c3e50;
   padding: 10px 20px;
+  font-size: 80px;
+}
+
+/* intro-tekst */
+.intro {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c8e0ef;
+  border: 3px solid #2c3e50;
+  border-radius: 8px;
+  line-height: 1.6;
 }/*# sourceMappingURL=style.css.map */
