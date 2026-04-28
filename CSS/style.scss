@@ -31,7 +31,15 @@ body {
 
 /* intro-tekst */
 
-.intro {
+.intro-content {
+    display: flex;
+    gap: partial.$spacing;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro-text {
+    flex: 1;
     max-width: 700px;
     margin: partial.$spacing auto;
     padding: partial.$spacing;
@@ -42,4 +50,21 @@ body {
 
     line-height: 1.6;
 }
+
+.intro-image {
+    flex: 1;
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: partial.$border-radius;
+    border: 3px solid partial.$primary-color;
+}
+
+@media (max-width: 768px) {
+  .intro-content {
+    flex-direction: column;
+  }
+}
+
    
