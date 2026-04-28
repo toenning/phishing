@@ -5,6 +5,7 @@ body {
     color: partial.$text-color;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+    min-height: 100vh;
 }
 
 /* HEADER */
@@ -65,6 +66,34 @@ body {
   .intro-content {
     flex-direction: column;
   }
+}
+
+/* QUIZ */
+
+#quiz {
+  max-width: 700px;
+  margin: partial.$spacing auto;
+  padding: partial.$spacing;
+  text-align: center;
+  background-image: url(../IMG/computer1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: partial.$border-radius;
+
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: partial.$primary-color;
+  color: white;
+  border-radius: partial.$border-radius;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: partial.$secondary-color;
 }
 
    
